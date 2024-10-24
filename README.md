@@ -53,5 +53,12 @@ You should also note that each code statement must end with a semicolon (;)
 
 ## The Print() Method
 There is also a print() method, which is similar to println().
-
 The only difference is that it does not insert a new line at the end of the output
+
+
+## Java Variables
+- String - stores text, such as "Hello". String values are surrounded by double quotes
+- int - stores integers (whole numbers), without decimals, such as 123 or -123
+- float - stores floating point numbers, with decimals, such as 19.99 or -19.99
+- char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes
+- boolean - stores values with two states: true or false
