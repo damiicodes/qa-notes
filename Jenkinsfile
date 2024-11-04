@@ -3,8 +3,8 @@ pipeline {
 
     tools {
         // Specify the version of JDK and Maven to use
-        jdk 'jdk-17'   // Make sure you have configured this in Jenkins
-        maven 'Maven 3.9.6' // Specify the Maven version you have configured in Jenkins
+        jdk 'null'   // Make sure you have configured this in Jenkins
+        maven 'M3' // Specify the Maven version you have configured in Jenkins
     }
 
     environment {
