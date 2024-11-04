@@ -3,8 +3,8 @@ pipeline {
 
     tools {
         // Specify the version of JDK and Maven to use
-        jdk 'jdk-11'   // Make sure you have configured this in Jenkins
-        maven 'Maven 3.8.1' // Specify the Maven version you have configured in Jenkins
+        jdk 'jdk-17'   // Make sure you have configured this in Jenkins
+        maven 'Maven 3.9.6' // Specify the Maven version you have configured in Jenkins
     }
 
     environment {
@@ -15,7 +15,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Clone the GitHub repository
-                git branch: 'main', url: 'https://github.com/your-username/your-repo.git'
+                git branch: 'main', url: 'https://github.com/damiicodes/qa-notes.git'
             }
         }
 
