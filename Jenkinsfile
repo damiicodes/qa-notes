@@ -2,13 +2,8 @@ pipeline {
     agent any
 
     tools {
-        // Specify the version of JDK and Maven to use
-        jdk 'null'   // Make sure you have configured this in Jenkins
-        maven 'M3' // Specify the Maven version you have configured in Jenkins
-    }
-
-    environment {
-        // Optional: Add any environment variables here
+        // Install the Maven version configured as "M3" and add it to the path.
+        maven "M3"
     }
 
     stages {
